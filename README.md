@@ -27,14 +27,14 @@ This project demonstrates a simple REST API built using Spring Boot. The API res
 ## Setup Instructions
 
 ### 1. Clone the Repository
-```bash
+bash
 git clone ""https://github.com/your-username/your-repo-name.git""
 cd your-repo-name
 
 ### 2. Build and Run the Application
-```Using Maven:
+- Using Maven:
 mvn spring-boot:run
-```Manually (if Maven is unavailable):
+- Manually (if Maven is unavailable):
 mvn clean install
 - java -jar target/your-project-name-0.0.1-SNAPSHOT.jar
 
