@@ -38,9 +38,19 @@ mvn spring-boot:run
 mvn clean install
 - java -jar target/your-project-name-0.0.1-SNAPSHOT.jar
 
-### API Usage
+### 3. API Usage
 - Endpoint
 - GET /hello
 - Response
 - Status: 200 OK
 - Body: "Hello, World!"
+
+### 4. Testing the API
+- Using Postman
+1. Open Postman and create a new GET request.
+2. Set the URL to: http://localhost:8080/hello
+3. Send the request and view the response.
+- Using cURL
+curl http://localhost:8080/hello
+- Using a Browser
+Visit: http://localhost:8080/hello
